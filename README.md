@@ -42,4 +42,4 @@ fork해서 사용
 > review완료 후 original에 merge되면 fork해둔 repository에는 반영 안 된 상태이므로 동기화 필요
 - git fetch upstream
 - git checkout main
-- git merge upstream/main
+- git rebase upstream/main
