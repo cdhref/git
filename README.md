@@ -17,7 +17,7 @@ ssh-keygen -t rsa
 > github: https://github.com/settings/keys
 
 # git 운용 관련
-## 1. git account
+## 1. pull-request 기반 운용 시 git account 관리
 git account는 회사 계정, 각 사원별 계정이 필요
 
 ## 2. git repository
