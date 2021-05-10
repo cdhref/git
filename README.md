@@ -9,8 +9,10 @@
 
 비밀번호 확인까지 입력 완료 되면 키 파일 다음 경로에 생성 됨 
 > C:\Users\[user_name]\.ssh\id_rsa.pub
-
 해당 파일 메모장으로 열어서 복사 후 git사이트에서 ssh키 등록
+
+## linux
+ssh-keygen -t rsa
 
 > github: https://github.com/settings/keys
 
