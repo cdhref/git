@@ -46,8 +46,21 @@ fork해서 사용
 - git checkout main
 - git rebase upstream/main
 
+## 7. alias(.git/config)
+[alias]
+        co = checkout
+        rb = rebase -i
+        st = status
+        cm = commit
+        pl = pull
+        ps = push
+        lg = log --graph --abbrev-commit --decorate --format=format:‘%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)’ --all
+        ad = add
+        tg = tag -n
+        df = diff
+        br = branch
 
-## 7. Pull-request를 위한 main push 방지 설정
+## 8. Pull-request를 위한 main push 방지 설정
 > Pull-request를 사용하지 않고 main에 직접 push하는 케이스를 방지하기 위한 설정. (이미지의 빨간 박스 참조)
 
 ![image](https://user-images.githubusercontent.com/83071973/124046771-af1a3780-da4d-11eb-9710-a08a9ab37964.png)
