@@ -47,6 +47,7 @@ fork해서 사용
 - git rebase upstream/main
 
 ## 7. alias(.git/config)
+```
 [alias]
         co = checkout
         rb = rebase -i
@@ -59,7 +60,7 @@ fork해서 사용
         tg = tag -n
         df = diff
         br = branch
-
+```
 ## 8. Pull-request를 위한 main push 방지 설정
 > Pull-request를 사용하지 않고 main에 직접 push하는 케이스를 방지하기 위한 설정. (이미지의 빨간 박스 참조)
 
