@@ -49,17 +49,17 @@ fork해서 사용
 ## 7. alias(.git/config)
 ```
 [alias]
-        co = checkout
-        rb = rebase -i
-        st = status
-        cm = commit
-        pl = pull
-        ps = push
-        lg = log --graph --abbrev-commit --decorate --format=format:‘%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)’ --all
-        ad = add
-        tg = tag -n
-        df = diff
-        br = branch
+        git config --global alias.co checkout
+        git config --global alias.rb "rebase -i"
+        git config --global alias.st status
+        git config --global alias.cm commit
+        git config --global alias.pl pull
+        git config --global alias.ps push
+        git config --global alias.lg log "--graph --abbrev-commit --decorate --format=format:‘%C(cyan)%h%C(reset) - %C(green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(yellow)%d%C(reset)’ --all"
+        git config --global alias.ad add
+        git config --global alias.tg tag -n
+        git config --global alias.df diff
+        git config --global alias.br branch
 ```
 ## 8. Pull-request를 위한 main push 방지 설정
 > Pull-request를 사용하지 않고 main에 직접 push하는 케이스를 방지하기 위한 설정. (이미지의 빨간 박스 참조)
